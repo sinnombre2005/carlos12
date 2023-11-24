@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen1{
+  position: absolute;
+  top: 20px; 
+  left: 1050px;
+    width: 230px; 
+  height: auto; 
+ 
+}
+.imagen2{
+    position: absolute;
+  top: 300px; 
+  left: 20px;
+    width: 370px; 
+  height: auto; 
+}
+.imagen3{
+    position: absolute;
+  top: 520px; 
+  left: 900px;
+    width: 300px; 
+  height: auto; 
+}
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class {
+  color: limegreen;
+  font-size: 100px;
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+
+}  
+.title {
+  color: limegreen;
+  font-size: 100px;
+     position: absolute;
+  top: 10px;
+  left: 20px;
+
+}
+
+.subtitle {
+  color: limegreen;
+  font-size: 120px;
+       position: absolute;
+  top: 150px;
+  left: 400px;
+
+}
+.nombre {
+  color: limegreen;
+  font-size: 40px;
+       position: absolute;
+  top: 550px;
+  left: 480px;
+  font-family:Cooper Black ;
+}
+
+.grado {
+  color: limegreen;
+  font-size: 30px;
+       position: absolute;
+  top: 620px;
+  left: 610px;
+  font-family:Cooper Black ;
+}
+.button {
+  color: green;
+  font-size: 30px;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  font-family: Cooper Black;
+   position: absolute;
+  top: 520px;
+  left: 500px;
+}
